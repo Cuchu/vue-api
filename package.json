@@ -1,0 +1,18 @@
+{
+  "name": "app-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cross-env ENV=development nodemon src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.6"
+  }
+}
