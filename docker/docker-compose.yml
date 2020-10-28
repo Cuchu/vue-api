@@ -1,0 +1,11 @@
+version: "3"
+services:
+  vue_app_api_postgres:
+    image: "library/postgres:11"
+    container_name: vue_app_api_postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    restart: always
